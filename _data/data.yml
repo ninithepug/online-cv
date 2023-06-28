@@ -16,8 +16,8 @@ sidebar:
     phone: 365 364 4088
     timezone: America/Toronto Timezone
     citizenship:
-    website: wordpress.apps.tommywang.ca #do not add http://
-    linkedin: https://www.linkedin.com/in/tommy-wang-59aa0915/
+    website: blog.tommywang.ca #do not add http://
+    linkedin: tommy-wang-59aa0915
     xing: 
     github: 
     telegram: 
@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: 
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://resume.apps.tommywang.ca//assets/images/CV.pdf
 
     languages:
       title: Languages
@@ -39,26 +39,36 @@ sidebar:
           level: Native
 
     interests:
-      title: Interests
+      title: Certifications
       info:
-        - item: Climbing
+        - item: Azure Solutions Architect Expert
           link:
 
-        - item: Snowboarding
+        - item: Azure Developer Associate
           link:
 
-        - item: Cooking
+        - item: Google Cloud Certified Professional Cloud Architect
+          link:
+        
+        - item: The Open Group Certified TOGAF® Architect
+          link:
+        
+        - item: Project Management Professional
+          link:
+
+        - item: ITIL V3 Foundation
+          link:
+        
+        - item: Multiple Microsoft stack Certifications (MCSD)
+          link:
+        
+        - item: SUN Certified Java Programmer
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      TOGAF & PMP titled technical enthusiast, dedicated in building complex enterprise
-grade software, with expertise in integration domain on-prem and in cloud (certified
-architect on Microsoft Azure/Google Cloud)
-Tommy played key roles in multiple strategic programs, with 20+ years’ experiences
-as team lead, consultant and architect, with rich experiences in financial service
-sector (banking/insurance)
+      TOGAF & PMP titled technical enthusiast, dedicated in building complex enterprise grade software, with expertise in integration domain on-prem and in cloud (certified architect on Microsoft Azure/Google Cloud) Tommy played key roles in multiple strategic programs, with 20+ years’ experiences as team lead, consultant and architect, with rich experiences in financial service sector (banking/insurance)
 education:
     title: Education
     info:
@@ -74,161 +84,96 @@ experiences:
         time: January 2021 — Present
         company: Concentra Bank, Regina
         details: |
-          - Envision, road-map and execute the bank's first retail platform (web & mobile), revamping the bank's internal system for retail deposits, mortgage onboarding/servicing and risk management platforms
-          - Integrate bank’s digital channel with 20+ systems, including core banking, salesforce, CRM, treasury and data warehouse
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Leadr solution architect,
+            - Envision, road-map and execute the bank's first retail platform (web & mobile), revamping the bank's internal system for retail deposits, mortgage onboarding/servicing and risk management platforms
+            - Integrate bank’s digital channel with 20+ systems, including core banking, salesforce, CRM, treasury and data warehouse
+      - role: Cloud Solution Architect
+        time: May 2020 — December 2020
+        company: RBC, Toronto
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Senior solution architect on SA&I initiatives,
+            - Architecting event sourcing micro-services for RBC Mobile Wallet app
+            - Solution design for cloud native Virtual Clean Room (a rule based merchant campaign program), built on a combination of Azure IaaS/PaaS services, e.g. Azure Confidential Compute, SQL Always Encrypted Enclave and M-HSM Key Vault
+            - AML enablement on Dynamic Cad Papraid Paltform 
+            - Host internal team whiteboard sessions and solution review presentations for stakeholder & sponsors at Design Authority.
+      - role: Solution Architect
+        time: February 2018 — April 2020
+        company: ATB Financial, Calgary
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Solution architect for the bank's digital transformation program,
+            - Microservice architect in building Enterprise API for a range of payment portfolio services, includes EFT, bill payments and payment card transactions, on Google Cloud Platform (GKE/Springboot/Auth0 IAM)
+            - Drive end to end architecture for fraud/AML enablement for retail/business onboarding, transactions and cheque deposits. Work with business team to define risk taxonomy, solution architecture design for channel integration pipelines 
+            - Collaborate with peer architects in facilitate and record the architecture pattern, principle and decisions
+            - Liason in payment modernization projects, on ISO 20022 standard adoptions and on RTR planning sessions with Payment Canada
+            - Key player in enterprise portfolio review sessions for architectural decision reviews, capability planning and road map executions
+            - Participated in scrum workshops, champion of scrum processes, authoring knowledge base confluence
+      - role: Integration Architect
+        time: July 2017 — February 2018
+        company: HoltRenfrew Inc, Toronto
+        details: |
+          Solution architect on ERP transformation program,
+            - Built on top of Azure platform leverage a slew of IaaS/PaaS services
+            - Champion and drives the retailer's core architecture on event based serverless compute platform
+            - Designed solution for ERP to store system integration
+            - Design solution to enable OData service backend to support mobile channel
+            - Work with Enterprise Architect on roadmap planning and executions
+      - role: Sr. Consultant
+        time: October 2010 — February 2013
+        company: Dapasoft Inc, Toronto
+        details: |
+          Senior consultant on a number of healthcare initiatives,
+            - Hospital IT system integration for EHealth Ontario's Connecting GTA CDR Registry
+            - Cancer Care Ontario Enterprise Service Bus
+            - SAP ERP Integration for Shared Services West, for MM and finance modules
+            - Multiple PoC for hospital IT system integration
+            - Response to rfp requests, orchestrate vendor onsite brainstorm sessions, leads from architecture design, development implementation to knowledge transfer
+      - role: Solution Architect
+        time: March 2013 — June 2017
+        company: January 2009 — October 2010
+        details: |
+          Lead the design of the financial integration hub between clients, partners, banks, card issuers and logistic providers, issuing prepaid VISA cards for enterprise clients.
+      - role: Sr. System Designer
+        time: October 2006 — December 2008
+        company: Manulife Financial, Toronto
+        details: |
+          Enables the secure online real-time settlement of insurance policies for Affinity Markets, which is the first of its kind in Canada.
+      - role: Consultant
+        time: January 2006 — October 2006
+        company: Avanade, Toronto
+        details: |
+          Technical lead on enterprise service bus implementation for RBC insurance NEXUS program for broker and commission systems.
+      - role: Software Developer
+        time: April 2003 — December 2005
+        company: Process Fusion, Toronto
+        details: |
+          Workflow automation, document repository management
+      - role: Software Developer
+        time: April 2003 — December 2005
+        company: China Telecom, China
+        details: |
+          Help to establish national CA authority,implementing e-commerce solutions.
+    
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-        
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+
+      - name: System Integrations
+        level: 100%
+
+      - name: Solution Architecture
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Microsoft BizTalk
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C#
+        level: 98%
+
+      - name: Java
+        level: 70%       
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
